@@ -1,13 +1,20 @@
 /*=================================
         common css start
 ================================= */
+*{
+		margin: 0;
+		padding: 0;
+}
+
+html{
+		scroll-behavior: smooth;
+}
+
 body{
         overflow-x: hidden;
 }
-*{
-        margin: 0;
-        padding: 0;
-}
+
+
 h1,
 h2,
 h3,
@@ -18,16 +25,20 @@ p{
         padding: 0;
         margin: 0;
 }
+
 ul,
 ol{
         list-style: none !important;
 }
+
 a{
         text-decoration: none !important;
 }
+
 .flex{
         display: flex;
 }
+
 .button a{
 	display: inline-block;
 	color: #ffffff;
@@ -43,14 +54,17 @@ a{
 	z-index: 1;
 	position: relative;
 }
+
 .button a:hover{
 	background: transparent;
 	border-color: #ffffff;
 }
+
 .title{
 	text-align: center;
 	margin-bottom: 20px;
 }
+
 .title h4{
 	color: #353535;
 	font-size: 22px;
@@ -58,9 +72,11 @@ a{
 	font-weight: 400;
 	text-transform: uppercase;
 }
+
 /*=================================
         common css end
 ================================= */
+
 /*=================================
         nav section start
 ================================= */
